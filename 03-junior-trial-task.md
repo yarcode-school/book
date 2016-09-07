@@ -29,3 +29,6 @@ https://packagist.org/packages/yarcode/yii2-app-yarcode
 
 ### Сроки
 Срок исполнения задания - одна неделя. Через 7 календарных дней код должен быть полностью загружен на github и быть готовым к деплою.
+
+### Помощь
+Любые вопросы по реализации тестового проекта можно задавать в нашем telegram канале: https://telegram.me/joinchat/ACNcvAcPOGUt6Yjpxl8niQ
