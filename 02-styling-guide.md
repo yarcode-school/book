@@ -1,15 +1,15 @@
 ## Coding guide
-### General styles
-* Follow [psr-1](http://www.php-fig.org/psr/psr-1/) and [psr-2](http://www.php-fig.org/psr/psr-2/) standards.
-* Use curly brackets for all of the conditions even one line condition ex:
+### Стилевые особенности написания кода
+* Следуйте стандартам [psr-1](http://www.php-fig.org/psr/psr-1/) и [psr-2](http://www.php-fig.org/psr/psr-2/).
+* Используйте фигурные скобки во всех условных выражениях и циклах, даже если выполняется всего одна строка кода:
 
 ```
 if (true) {
     do();
 }
 ```
-* Add phpdoc to all methods that you add
-* Add @var marks for objects variables ex:
+* Добавляйте phpdoc нотации для всех методов, которые вы создаете.
+* Используйте @var нотации там, где тип объекта не определяется явно.
 ```
 /**
  * @var Model $model
@@ -17,13 +17,14 @@ if (true) {
 $model = Model::find()->one();
 ```
 ## Yii
-* You should use migrations for any database structure changes
-* You should use scheme builder in migrations (http://www.yiiframework.com/news/88/yii-2-0-6-is-released/)
-* Model class names should be in singular form
-* Relation names should be named reasonably ex:
-tables: user, user_profile; relation name in user model: profile
-* View names should be in dash notation, and should be same as controller url name ex: some-file-name.php
-* If some extra logic is required to extract some ui data, make it via widget
+* Используйте миграции для любых изменений структуры БД
+* Используйте построитель схемы в своих миграциях (http://www.yiiframework.com/news/88/yii-2-0-6-is-released/)
+* Имя класса модели и имя таблицы должны быть в единственном числе. Например: таблица *user_account*, класс модели *UserAccount*.
+* Именуйте связи не используя излишних префиксов, например:
+у вас есть модели: User, UserProfile; название связи в модели User должно быть: profile
+* Именуйте view файлы в нижнем регистре с дефисами, они должны совпадать с action url контроллера. Например:
+Действие some-controller/some-action. Название view файла: some-action.php
+* Не стесняйтесь использовать виджеты
 
 ### Attribute labels
 Please follow this coding style when using attribute labels in model. This allows you to use statusLabel as attribute in grids, you can also set getStatusLabels() as source of data for filters
