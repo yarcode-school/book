@@ -32,10 +32,10 @@
 * error_reporting = E_ALL
 
 ### Переменные окружения
-* PATH - в эту переменную окружения требуется добавить директорию с php.exe (C:\Work\PHP-5.5\)
-* PHP_COMMAND - должна содержать полный путь к php.exe (C:\Work\PHP-5.5\php.exe)
-* PHP_BIN - должна содержать полный путь к php.exe (C:\Work\PHP-5.5\php.exe)
-* PHP_DIR - должна содержать полный путь к директории с php.exe со слешем на конце (C:\Work\PHP-5.5\)
+* PATH - в эту переменную окружения требуется добавить директорию с php.exe (C:\Work\PHP-7\)
+* PHP_COMMAND - должна содержать полный путь к php.exe (C:\Work\PHP-7\php.exe)
+* PHP_BIN - должна содержать полный путь к php.exe (C:\Work\PHP-7\php.exe)
+* PHP_DIR - должна содержать полный путь к директории с php.exe со слешем на конце (C:\Work\PHP-7\)
 
 
 ## PuTTY
