@@ -74,3 +74,9 @@
 * [Страница загрузки](https://getcomposer.org/download/)
 * [Официальный сайт](https://getcomposer.org/)
 * [Основной репозиторий пакетов](https://packagist.org/)
+
+Установите composer в директорию, в которую у вас установлен PHP. Создайте файл composer.bat в этой директории со следующим содержимым.
+```
+@echo off
+"%~dp0php.exe" "%~dp0composer.phar" %*
+```
