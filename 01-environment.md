@@ -43,7 +43,7 @@
 Знаменитый SSH клиент для Windows. 
 Сам клиент нам пока не интересен, однако нам потребуются утилиты *plink.exe* и *pageant.exe*
 
-* [Установщик](http://the.earth.li/~sgtatham/putty/latest/x86/putty-0.65-installer.exe)
+* [Установщик](https://the.earth.li/~sgtatham/putty/latest/x86/putty-0.67-installer.msi)
 * [Официальный сайт](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
 
 ## GIT
