@@ -46,6 +46,9 @@
 * [Установщик](https://the.earth.li/~sgtatham/putty/latest/x86/putty-0.67-installer.msi)
 * [Официальный сайт](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
 
+### Переменные окружения
+* GIT_SSH - в эту переменную окружения требуется добавить директорию с plink.exe (`C:\Program Files (x86)\PuTTY\plink.exe`)
+
 ## GIT
 
 Распределенная система контроля версий.
